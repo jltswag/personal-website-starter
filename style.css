@@ -1,0 +1,160 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  color:white;
+}
+
+.head{
+  background-image: url('assets/gwc2.jpg');
+  
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  text-shadow: 4px 3px 2px #a7c3b5;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #e7e3d5 ;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #a7c3b5;
+  color: black;
+}
+
+/* Styles the row flex container */
+.row{
+  display:flex;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.block1 {
+  width: 60%;
+  background-color: #b3e6b5;
+  padding: 40px;
+  color: white;
+  
+}
+
+/* Sets different text spacing for header 3 elements in block1 */
+.block1 h3 {
+  margin-top:50px;
+}
+
+/* Sets different text spacing for paragraph elements in block1 */
+.block1 p {
+  margin-top:20px;
+}
+
+/* Main column */
+.block2 {   
+  width: 40%;
+  background-color:  #a7c3b5;
+  padding: 40px;
+  color: #white;
+}
+
+/* Image elements in block2 */
+.block2 img{
+  margin-top:20px;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  height: 300px;
+  width:200px;
+  float:center;
+  margin-left:200px;
+}
+
+.intro {
+  background-color: #a7c3b5;
+  padding: 40px;
+  color: white;
+}
+
+/* Create three even columns that sit next to each other */
+.proj1{
+  width: 33%;
+  background-color: #a7c3b5;
+  padding: 40px;
+}
+
+.proj1 h3, p{
+  margin-top:20px;
+}
+
+/* Image elements in the first project column */
+.proj1 img{
+  margin-top:20px;
+  padding: 5px;
+  background-color: white;
+  height: 500px;
+  width:275px;
+  float:center;
+}
+
+.proj2{
+  width: 33%;
+  background-color: #a7c3b5;
+  padding: 40px;
+}
+
+.proj2 h3, p{
+  margin-top:20px;
+}
+
+/* Image elements in the second project column */
+.proj2 img{
+  margin-top:20px;
+  padding: 5px;
+  background-color: white;
+  height: 500px;
+  float:center;
+  width:275px;
+}
+
+.proj3{
+  width: 34%;
+  background-color: #a7c3b5;
+  padding: 40px;
+}
+
+.proj3 h3, p{
+  margin-top:20px;
+}
+
+/* Image elements in the third project column */
+.proj3 img{
+  margin-top:20px;
+  padding: 5px;
+  background-color: white;
+  height: 275px;
+  width:400px;
+  float:center;
+}
+
+.footer{
+  background-color: #e7e3d5  ;
+  color:white;
+  font-style:italic;
+  padding: 20px;
+}
